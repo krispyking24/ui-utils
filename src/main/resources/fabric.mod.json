@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "uiutils",
+  "version": "${version}",
+
+  "name": "UI Utils",
+  "description": "Dupe hunting mod.",
+  "authors": [
+    "Coderx_Gamer"
+  ],
+  "contact": {
+    "homepage": "https://github.com/Coderx-Gamer/ui-utils/releases/latest",
+    "sources": "https://github.com/Coderx-Gamer/ui-utils"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/uiutils/icon.png",
+
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "org.uiutils.MainClient"
+    ]
+  },
+  "mixins": [
+    "uiutils.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.13",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
